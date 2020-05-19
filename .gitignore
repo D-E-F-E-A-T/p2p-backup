@@ -1,0 +1,6 @@
+*.json
+!config-sample.json
+*test.go
+*.log
+*.bat
+.idea

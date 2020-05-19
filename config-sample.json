@@ -1,0 +1,63 @@
+{
+  "database": {
+    "postgres": {
+      "network": "tcp",
+      "address": "127.0.0.1:3456",
+      "user": "postgres",
+      "password": "password",
+      "database": "db",
+      "application": "p2p"
+    },
+    "mongo": {
+      "address": "127.0.0.1:27017",
+      "user": "root",
+      "password": "",
+      "database": "",
+      "application": "p2p"
+    }
+  },
+  "api": {
+    "keys": {
+      "auth": "128-byte key",
+      "encrypt": "64-byte key"
+    },
+    "host": "http://127.0.0.1:9999",
+    "address": "127.0.0.1:9999",
+    "l18n": "l18n",
+    "templates": "templates/*.html",
+    "files": "public/files/"
+  },
+  "smtp": {
+    "user": "user",
+    "password": "password",
+    "host": "smtp host",
+    "port": 465,
+    "templates": "templates",
+    "company": "company name"
+  },
+  "telegram": {
+    "token": "telegram token"
+  },
+  "crypto": {
+    "bitcoin": {
+      "host": "bitcoin api host",
+      "token": ""
+    },
+    "bcash": {
+      "host": "bcash api host",
+      "token": ""
+    },
+    "litecoin": {
+      "host": "litecoin api host",
+      "token": ""
+    },
+    "ethereum": {
+      "host": "ethereum api host",
+      "token": ""
+    },
+    "waves": {
+      "host": "waves api host",
+      "token": ""
+    }
+  }
+}
