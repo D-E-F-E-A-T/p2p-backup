@@ -1,0 +1,39 @@
+{
+  "bitcoin": {
+    "host": "127.0.0.1:8332",
+    "endpoint": "",
+    "user": "admin",
+    "pass": "node-password"
+  },
+  "bcash": {
+    "host": "127.0.0.1:19332",
+    "endpoint": "",
+    "user": "admin",
+    "pass": "node-password"
+  },
+  "litecoin": {
+    "host": "127.0.0.1:9332",
+    "endpoint": "",
+    "user": "admin",
+    "pass": "node-password"
+  },
+  "ethereum": {
+    "host": "http://127.0.0.1:8545",
+    "keystore": "./"
+  },
+  "waves": {
+    "host": "http://127.0.0.1:6869",
+    "key": "DHahw5rDSMxDUh"
+  },
+  "database": {
+    "network": "tcp",
+    "address": "127.0.0.1:5432",
+    "user": "postgres",
+    "password": "password",
+    "database": "node"
+  },
+  "server": {
+    "host": "",
+    "port": 10000
+  }
+}
